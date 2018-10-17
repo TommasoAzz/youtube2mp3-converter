@@ -1,0 +1,34 @@
+echo "youtube2mp3-converter  --- INSTALLER";
+
+echo "";
+echo "INSTALLATION PROCESS STARTED.";
+echo "";
+
+echo "1) RUNNING apt-get update...";
+echo "";
+
+sudo apt-get update;
+
+echo "";
+echo "Done!"
+echo "";
+
+echo "";
+echo "2) INSTALLING THE COMPONENTS...";
+echo "";
+
+sudo apt-get install ffmpeg python;
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/bin/youtube-dl;
+
+sudo chmod a+rx /usr/bin/youtube-dl;
+
+sudo cp youtube2mp3-converter /usr/bin/;
+
+sudo chmod a+rx /usr/bin/youtube2mp3-converter;
+
+echo "";
+echo "Done!";
+
+echo "Type: youtube2mp3-converter [filename] to start downloading.";
+echo "";
