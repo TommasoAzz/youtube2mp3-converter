@@ -2,7 +2,7 @@
 ## Simple and dumb script to download videos from **YouTube** and convert them to **.mp3** files.
 
 Just two simple script file:
-* **install_youtube2mp3-converter**;
+* **install_script**;
 * **youtube2mp3-converter**.
 
 What they do is just automating the process of using the programs that this script uses for getting its job done.
@@ -15,7 +15,7 @@ What they do is just automating the process of using the programs that this scri
 ### How to install youtube2mp3-converter
 1. Download both the script files from this repository
 1. Put them both in the same directory
-1. Type **install_youtube2mp3-converter** and press **ENTER** (you'll get asked to type your password, as there are some commands that require admin authorization)
+1. Type **install_script** and press **ENTER** (you'll get asked to type your password, as there are some commands that require admin authorization)
 
 ### How to use the script once it's installed
 Just type: **youtube2mp3-converter \[filename\]** and press **ENTER**<br />
