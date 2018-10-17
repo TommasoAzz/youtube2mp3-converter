@@ -8,13 +8,13 @@ Just two simple script file:
 What they do is just automating the process of using the programs that this script uses for getting its job done.
 
 ### Dependencies
-* ffmpeg;
-* python;
-* youtube-dl.
+* ffmpeg
+* python
+* youtube-dl
 
 ### How to install youtube2mp3-converter
-1. Download both the script files from this repository;
-1. Put them both in the same directory:
+1. Download both the script files from this repository.
+1. Put them both in the same directory.
 1. Type **install_script** and press **ENTER** (you'll get asked to type your password, as there are some commands that require admin authorization).
 
 ### How to use the script once it's installed
